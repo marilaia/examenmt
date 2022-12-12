@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #d68df8e3;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin:center; 
+    
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+ 
+    margin-left: 20px;
+}
+
+.logo a
+{ 
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+
+}
+
+
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover { 
+    background: #e389e0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 100vh !important;
+    background: url(img/mamamoo\ black\ comeback\ \(1\).jpeg) no-repeat center;
+    background-size: cover ;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+    line-height: 20px;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+.sau {
+    padding: 70px;
+    background: #a537b8
+}
+
+.title2 {
+    font-size: 25px;
+}
+.p2 {
+    font-size: 16px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    text-align: right;
+
+}
+
+.box-container .box {
+    height: 30rem;
+    width: 35rem;
+    background: #ab5cdae0;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5remw rgb(255, 41, 166);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: cornflowerblue;
+    
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+  
+    color: #cf62e2;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+.about {
+    background: url(img/maxresdefault.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.price { 
+    padding-top: 90px;
+    background: #4fdcef;
+    padding-bottom:500px;
+
+    
+}
+.box-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container2 .box {
+    height: 45rem;
+    width: 22rem;
+    background: hsla(313, 100%, 71%, 0.829);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 .3rem 5remw wheat;
+    margin: 10px;
+
+}
+
+.box-container2 .box i 
+{
+    text-align: center;
+    border:0;
+    color: #fff;
+    background: rgb(255, 255, 255);
+    margin: 10px 0;
+}
+.box-container2 .box 
+{
+   
+    color: #ffbff9;
+
+}
+.box-container2 .box
+{
+    padding: 0;
+    
+
+}
+    
+   
+
+.contact {
+    display: flex;
+    padding-top: 100px;
+    background: #f575ee;
+    padding-bottom: 400px;
+    
+}
+
+.mail {
+     display: flex;
+    padding-top: 100px;
+    background: #86b6ff;
+    padding-bottom: 20px;
+
+}
+.p3 {
+    font-size: 30px;
+    display:wrap;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+
+
+}
+.p3 a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;
+
+}
